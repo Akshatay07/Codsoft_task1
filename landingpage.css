@@ -1,0 +1,155 @@
+body{
+    margin : 0;
+    padding : 0;
+    background-color: #333;
+}
+#header {
+    height: 60px;
+    background: rgb(231,218,218);
+    background: linear-gradient(90deg, rgba(231,218,218,1) 0%, rgba(86,226,48,1) 1%, rgba(58,194,156,1) 92%);
+    color :  #333;
+    display: flex;
+    flex-direction: row;         
+    align-items: center;           
+    justify-content: space-around;                    
+    padding: 0 20px;    
+    font-size: 20px;           
+  }
+#imp{
+    padding-top: 5%;
+}
+.gradient-text {  
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background: linear-gradient(90deg, #12bc3f, #44e2c3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 10%;
+}
+#tagline{
+    font-size: 30px ;
+}
+#p1{
+    position:relative;
+    bottom: 220px;
+    left: 40px;
+    height: 500px;
+    width:450px;
+    padding-right: 10%;
+    padding-bottom: 15%;
+
+}
+#p2{
+    position:relative;
+    top: 40px;
+    left: 50px;
+    height: 120px;
+    width: 100px;
+}     
+#quote_head{
+    font-size: 30px;
+}
+#quote{
+    font-size: 20px;
+}
+button{
+    background-color: rgb(0, 226, 100);
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position:relative;
+    left: 40%;
+    top: 20px;
+    height: 70px;
+    width: 250px;
+    border-radius: 20px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-family: cursive;
+    font-weight: bold;
+    border:none;
+    cursor: pointer;
+}
+section p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background: linear-gradient(90deg, #12bc3f, #44e2c3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 10%;
+}
+#meditate{
+    height: 600px;
+}
+#music{
+    height: 600px;
+}
+.meditate-images{
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    position: relative;
+    bottom : 250px;
+}
+.medi_box{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    background:linear-gradient(90deg, #37cf5f, #44e2c3);
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+.medi_box h3{
+    font-size: 20px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.medi_box img{
+    padding-top: 20px;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: -20px;
+    left: 10px;
+}
+.music-images{
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    position: relative;
+}
+#music button{
+    position: relative;
+    right:10%;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    top:30px;
+    left:0;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(90deg, #37cf5f, #44e2c3);;;
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.medi_img2{
+    padding-right: 20px;
+}
