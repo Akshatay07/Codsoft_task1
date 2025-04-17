@@ -1,2 +1,2 @@
 # Codsoft_task1
-A Landing Page
+A Digital Garden Landing Page
